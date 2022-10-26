@@ -1,0 +1,1 @@
+//Pagina para la sección de registro
