@@ -1,5 +1,5 @@
 <?php
-include_once '.\generales\generales.php';
+include_once '.\view\generales.php';
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ include_once '.\generales\generales.php';
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col-f">
             <div class="card">
-                <img src="images/Libros.jpg" class="card-img-top">
+                <img src="View/images/Libros.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Libros</h5>
                     <p class="card-text">Contamos con libros antiguos a los mas nuevos.
@@ -37,7 +37,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col-f">
             <div class="card">
-                <img src="images/autor.jpg.png" class="card-img-top">
+                <img src="View/images/autor.jpg.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Javier Castillo</h5>
                     <p class="card-text">
@@ -51,7 +51,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col-f">
             <div class="card">
-                <img src="images/segunda.png" class="card-img-top">
+                <img src="View/images/segunda.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Hazte Socio</h5>
                     <p class="card-text">¡Obtene nuestro paquete premium para tener acceso privilegeado a nuestros
@@ -61,7 +61,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col-f">
             <div class="card">
-                <img src="images/cuarta.jpg" class="card-img-top">
+                <img src="View/images/cuarta.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Comics</h5>
                     <p class="card-text">Contamos con comics de acción, horror, romance, entre otros.
@@ -77,7 +77,7 @@ include_once '.\generales\generales.php';
     <div class="row row-cols-1 row-cols-md-3 g-2">
         <div class="col">
             <div class="card-ob">
-                <img src="images/marvel.jpg" class="card-img-top" alt="...">
+                <img src="View/images/marvel.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Marvel Comic</h5>
                     <p class="card-text">Descripcion: Cuenta entre sus personajes a superhéroes tan conocidos como
@@ -89,7 +89,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col">
             <div class="card-ob">
-                <img src="images/principito.png" class="card-img-top" alt="...">
+                <img src="View/images/principito.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">El Principito</h5>
                     <p class="card-text">Descripcion: El principito es una novela corta y la obra más famosa del
@@ -101,7 +101,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col">
             <div class="card-ob">
-                <img src="images/iron.jpg" class="card-img-top" alt="...">
+                <img src="View/images/iron.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">The Invinsible Iron Man</h5>
                     <p class="card-text">Descripcion: Iron Man es el nombre de varios titulos de cómics que presentan al
@@ -113,7 +113,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col">
             <div class="card-ob">
-                <img src="images/harry.jpg" class="card-img-top" alt="...">
+                <img src="View/images/harry.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Harry Potter y la piedra filosofal</h5>
                     <p class="card-text">Descripcion: El día de su cumpleaños, Harry Potter descubre que es hijo de dos
@@ -125,7 +125,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col">
             <div class="card-ob">
-                <img src="images/antes.jpg" class="card-img-top" alt="...">
+                <img src="View/images/antes.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Yo Antes de Ti</h5>
                     <p class="card-text">Descripcion: Yo antes de ti es una novela romántica de la escritora británica
@@ -137,7 +137,7 @@ include_once '.\generales\generales.php';
         </div>
         <div class="col">
             <div class="card-ob">
-                <img src="images/one.jpg" class="card-img-top" alt="...">
+                <img src="View/images/one.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">One Piece</h5>
                     <p class="card-text">Descripcion: Únete a Monkey D. Luffy y su equipo de capa y espada en su
