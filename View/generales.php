@@ -15,9 +15,9 @@ function navBar()
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-link" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Libros</a>
-                <a class="nav-link" href="#">Comics</a>
-                <a class="nav-link" href="#">Promociones</a>
+                <a class="nav-link" href="./View/Libros.php">Libros</a>
+                <a class="nav-link" href="./View/Comics.php">Comics</a>
+                <a class="nav-link" href="./View/Descuentos.php">Promociones</a>
             </div>
         </div>
     </div>

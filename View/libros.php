@@ -1,5 +1,5 @@
 <?php
-include_once '.\generales\generales.php';
+include_once '.\generales.php';
 
 ?>
 
@@ -16,15 +16,9 @@ include_once '.\generales\generales.php';
 </head>
 
 <body>
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand">El Asilo del Libro</a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
+<?php
+    secondNav();
+    ?>
 
     <div class="card-group">
         <div class="card">
