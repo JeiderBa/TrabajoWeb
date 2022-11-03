@@ -1,5 +1,7 @@
 <?php
 include_once '.\view\generales.php';
+include_once __DIR__ . '\View\controller\usuarioController.php';
+
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +22,57 @@ include_once '.\view\generales.php';
     <?php
     navBar();
     ?>
-   
+
+    <style>
+    .navbar-nav {
+        margin-left: 60%;
+    }
+
+    .card {
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .col-f {
+        margin: 0px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .card-ob {
+        margin: 5px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 70%;
+
+    }
+
+    .Logo {
+        width: 75px;
+        height: 75px;
+        margin-right: 20px;
+    }
+
+    .card-img-top {
+        width: 450px;
+        height: 400px;
+
+    }
+
+    .second-titule {
+        text-align: center;
+        margin: 20px;
+    }
+    </style>
+
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col-f">
@@ -147,10 +199,10 @@ include_once '.\view\generales.php';
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </body>
-    <?php
+<?php
     footer();
-    ?> 
+    ?>
 
 </html>
