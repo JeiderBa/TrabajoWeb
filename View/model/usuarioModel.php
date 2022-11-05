@@ -10,4 +10,47 @@ function ValidarUsuarioModel($correo, $contrasenna)
     CloseDB($enlace);
     return $datos;
 }
+
+function ListarUsuariosModel()
+{
+    $enlace = OpenDB();
+
+    $procedimiento = "call ListarUsuarios();";
+    $datos = $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+    return $datos;
+}
+
+function ConsultarDatosUsuarioModel($idUsuario)
+{
+    $enlace = OpenDB();
+
+    $procedimiento = "call ConsultarUsuarioId($idUsuario);";
+    $datos = $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+    return $datos;
+}
+
+function ListarTiposUsuarioModel()
+{
+    $enlace = OpenDB();
+
+    $procedimiento = "call ListarTipoUsuario();";
+    $datos = $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+    return $datos;
+}
+function ActualizarUsuarioModel($NombreUsuario,$PrimerApellido,$Contrasenna,$Telefono,$TipoUsuario,$IdUsuario)
+{
+    $enlace = OpenDB();
+
+    $procedimiento = "call ActualizarUsuario('$NombreUsuario', '$PrimerApellido', '$Telefono', '$Contrasenna', $TipoUsuario,$IdUsuario);";
+    $enlace -> query($procedimiento);
+
+    CloseDB($enlace);
+}
+
 ?>

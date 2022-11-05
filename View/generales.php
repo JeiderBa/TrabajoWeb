@@ -18,6 +18,7 @@ function navBar()
                 <a class="nav-link" href="./View/Libros.php">Libros</a>
                 <a class="nav-link" href="./View/Comics.php">Comics</a>
                 <a class="nav-link" href="./View/Descuentos.php">Promociones</a>
+                <a class="nav-link" href="./View/login.php">Log In</a>
             </div>
         </div>
     </div>

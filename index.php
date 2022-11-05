@@ -23,7 +23,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
     navBar();
     ?>
 
-    <style>
+    <style type="text/css">
     .navbar-nav {
         margin-left: 60%;
     }
