@@ -79,4 +79,22 @@ if(isset($_POST["btnActualizar"]))
     header("Location: mantUsuario.php");  
 }
 
+
+function ListarAutores()
+{
+    $datos = ListarAutoresModel();   
+
+    if($datos -> num_rows > 0)
+    {
+        while($fila = mysqli_fetch_array($datos))
+        {
+            echo '<tr>';
+            echo '<td>' . $fila["nombreAutor"] . '</td>';
+            echo '<td>' . $fila["primerApellido"] . '</td>';
+            echo '<td>' . $fila["reconocimientos"] . '</td>';
+            echo '<td>' . $fila["obras"] . '</td>';
+            echo '</tr>';
+        }
+    }
+}
 ?>

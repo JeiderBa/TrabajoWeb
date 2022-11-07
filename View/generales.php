@@ -1,7 +1,7 @@
 <?php
 function navBar()
 {
-    echo' <nav class="navbar navbar-expand-lg bg-light">
+    echo ' <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
         <img src="images/Logo.jpg" class="Logo">
         <div class="titulo">
@@ -17,6 +17,7 @@ function navBar()
                 <a class="nav-link" aria-current="page" href="#">Home</a>
                 <a class="nav-link" href="./View/Libros.php">Libros</a>
                 <a class="nav-link" href="./View/Comics.php">Comics</a>
+                <a class="nav-link" href="./View/Autores.php">Autores</a>
                 <a class="nav-link" href="./View/Descuentos.php">Promociones</a>
                 <a class="nav-link" href="./View/login.php">Log In</a>
             </div>
@@ -25,8 +26,9 @@ function navBar()
 </nav>';
 }
 
-function footer(){
-    echo'
+function footer()
+{
+    echo '
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -37,8 +39,9 @@ function footer(){
     </footer>';
 }
 
-function secondNav(){
-    echo'<nav class="navbar bg-light">
+function secondNav()
+{
+    echo '<nav class="navbar bg-light">
     <div class="container-fluid">
       <a class="navbar-brand">El Asilo del Libro</a>
       <form class="d-flex" role="search">
