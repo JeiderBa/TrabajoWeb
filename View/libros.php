@@ -10,22 +10,22 @@ include_once '.\generales.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Libros</title>
 </head>
 
 <body>
     <?php
-    secondNav();
+    navBar();
     ?>
     <style type="text/css">
-        .card-img-top{
-            height:600px;
+        .card-img-top {
+            height: 500px;
         }
-       .card{
-        width: 2%;
-       }
+
+        .card {
+            width: 2%;
+        }
     </style>
     <p>
     <div class="card-group">
@@ -33,8 +33,8 @@ include_once '.\generales.php';
             <img src="../View/images/Cirujano.jpeg" class="card-img-top" alt="..." name="imagenL">
             <div class="card-body">
                 <h5 class="card-title">El buen cirujano</h5>
-                <p class="card-text">Descripcion: Novela en la que nos desvela la realidad del quirófano y nos descubre el corazón de estos hombres y 
-                    mujeres que viven su profesión al borde la muerte. Una trama apasionante, una lección de vida y un canto de 
+                <p class="card-text">Descripcion: Novela en la que nos desvela la realidad del quirófano y nos descubre el corazón de estos hombres y
+                    mujeres que viven su profesión al borde la muerte. Una trama apasionante, una lección de vida y un canto de
                     amor a quienes viven para su vocación. -Autor: Enrique Moreno -Precio: 15000 colones</p>
             </div>
 
@@ -57,7 +57,7 @@ include_once '.\generales.php';
         </div>
     </div>
     <p>
-    
+
 </body>
 
 </html>

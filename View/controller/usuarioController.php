@@ -88,12 +88,16 @@ function ListarAutores()
     {
         while($fila = mysqli_fetch_array($datos))
         {
-            echo '<tr>';
-            echo '<td>' . $fila["nombreAutor"] . '</td>';
-            echo '<td>' . $fila["primerApellido"] . '</td>';
-            echo '<td>' . $fila["reconocimientos"] . '</td>';
-            echo '<td>' . $fila["obras"] . '</td>';
-            echo '</tr>';
+          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["nombreAutor"] . '">';
+          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["primerApellido"] . '">';
+          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["reconocimientos"] . '">';
+          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["obras"] . '">';
+
+
+
+
+
+           
         }
     }
 }

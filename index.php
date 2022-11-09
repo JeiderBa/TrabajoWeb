@@ -1,7 +1,6 @@
 <?php
 include_once '.\view\generales.php';
 include_once __DIR__ . '\View\controller\usuarioController.php';
-
 ?>
 
 <!DOCTYPE html>
@@ -12,10 +11,10 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="estilos.css" type="text/css" />
+    <link rel="stylesheet" href="./View/css/estilos.css" type="text/css" />
+    <link rel="stylesheet" href="./View/css/estilosIndex.css" type="text/css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body>
@@ -23,58 +22,8 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
     navBar();
     ?>
 
-    <style type="text/css">
-    .navbar-nav {
-        margin-left: 60%;
-    }
-
-    .card {
-        margin: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 500px;
-    }
-
-    .col-f {
-        margin: 0px auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-
-    }
-
-    .card-ob {
-        margin: 5px auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 70%;
-
-    }
-
-    .Logo {
-        width: 75px;
-        height: 75px;
-        margin-right: 20px;
-    }
-
-    .card-img-top {
-        width: 450px;
-        height: 400px;
-
-    }
-
-    .second-titule {
-        text-align: center;
-        margin: 20px;
-    }
-    </style>
-
-
     <div class="row row-cols-1 row-cols-md-2 g-4">
+
         <div class="col-f">
             <div class="card">
                 <img src="View/images/Libros.jpg" class="card-img-top">
@@ -84,9 +33,9 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                         ¡Busca el libro que necesitas de ficcion, salud, ediciones limitadas, novelas, entre otras
                         categorias!</p>
                 </div>
-
             </div>
         </div>
+
         <div class="col-f">
             <div class="card">
                 <img src="View/images/autor.jpg.png" class="card-img-top">
@@ -101,6 +50,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col-f">
             <div class="card">
                 <img src="View/images/segunda.png" class="card-img-top">
@@ -111,6 +61,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col-f">
             <div class="card">
                 <img src="View/images/cuarta.jpg" class="card-img-top">
@@ -123,10 +74,13 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
             </div>
         </div>
     </div>
+
+
     <div class="second-titule">
         <h1><u>Libros</u></h1>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-2">
+
         <div class="col">
             <div class="card-ob">
                 <img src="View/images/marvel.jpg" class="card-img-top" alt="...">
@@ -139,6 +93,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col">
             <div class="card-ob">
                 <img src="View/images/principito.png" class="card-img-top" alt="...">
@@ -151,6 +106,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col">
             <div class="card-ob">
                 <img src="View/images/iron.jpg" class="card-img-top" alt="...">
@@ -163,6 +119,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col">
             <div class="card-ob">
                 <img src="View/images/harry.jpg" class="card-img-top" alt="...">
@@ -175,6 +132,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col">
             <div class="card-ob">
                 <img src="View/images/antes.jpg" class="card-img-top" alt="...">
@@ -187,6 +145,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                 </div>
             </div>
         </div>
+
         <div class="col">
             <div class="card-ob">
                 <img src="View/images/one.jpg" class="card-img-top" alt="...">
@@ -202,7 +161,6 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
     </div>
 </body>
 <?php
-    footer();
-    ?>
-
+footer();
+?>
 </html>

@@ -3,7 +3,7 @@ function navBar()
 {
     echo ' <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-        <img src="images/Logo.jpg" class="Logo">
+        <img src="./View/images/Logo.jpg" class="Logo">
         <div class="titulo">
             <h2><u>El Asilo del Libro</u></h2>
 

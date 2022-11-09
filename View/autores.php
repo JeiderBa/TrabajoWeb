@@ -16,59 +16,78 @@ include_once __DIR__ . '\Controller\UsuarioController.php';
 </head>
 
 <body>
+
+
     <?php
     secondNav();
     ?>
     <style type="text/css">
         .card-img-top {
-            height: 500px;
+            height: 600px;
         }
 
         .card {
             width: 2%;
         }
     </style>
+
+
+
+
+
+
+
+    <div class="container mt-5">
+
+        <th:block th:each="user : ${autores}">
+            <div class="row justify-content-center ">
+                <div class="card" style="width: 30rem; margin: 3rem 3rem 3rem 3rem;">
+                    <div class="row">
+                        <div class="col-md-7 justify-content-center">
+                            <?php
+                            ListarAutores();
+                            ?>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </th:block>
+    </div>
+
+
     <p>
     <div class="card-group">
         <div class="card">
-            <thead>
-                <tr>
+            <img src="../View/images/hemingway.jpg" class="card-img-top" alt="..." name="imagenL">
+            <div class="card-body">
+                <h5 class="card-title">Ernest Hemingway</h5>
+                <p class="card-text">Un escritor y periodista estadounidense, uno de los principales novelistas y cuentistas del siglo XX. Su estilo sobrio tuvo una gran influencia
+                    sobre la ficción del siglo XX, mientras que su vida de aventuras y su imagen pública dejó huellas en las generaciones posteriores</p>
+            </div>
+
+        </div>
+        <div class="card">
+            <img src="../View/images/marquez.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
                 
-                    <th>Nombre Autor</th>
-                    <th>Primer apellido</th>
-                    <th>Reconocimientos</th>
-                    <th>Obras</th>
-             
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                ListarAutores();
-                ?>
-            </tbody>
-        </div>
+            </div>
 
-    </div>
-    <div class="card">
-        <img src="../View/images/marquez.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">Gabriel García Márquez</h5>
-            <p class="card-text">​​ fue un escritor y periodista colombiano. Reconocido principalmente por sus novelas y cuentos,
-                también escribió narrativa de no ficción, discursos, reportajes, críticas cinematográficas y memorias.</p>
         </div>
-
-    </div>
-    <div class="card">
-        <img src="../View/images/jk.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <h5 class="card-title">J.K. Rowling</h5>
-            <p class="card-text">Es una conocida filántropa que apoya instituciones benéficas como Comic Relief,
-                One Parent Families y Multiple Sclerosis Society of Great Britain.</p>
+        <div class="card">
+            <img src="../View/images/jk.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">J.K. Rowling</h5>
+                <p class="card-text">Es una conocida filántropa que apoya instituciones benéficas como Comic Relief,
+                    One Parent Families y Multiple Sclerosis Society of Great Britain.</p>
+            </div>
         </div>
-    </div>
     </div>
     <p>
 
+
+
 </body>
+
 
 </html>
