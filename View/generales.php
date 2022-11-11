@@ -1,25 +1,26 @@
 <?php
 function navBar()
 {
-    echo ' <nav class="navbar navbar-expand-lg bg-light">
+    echo ' <nav class="navbar navbar-expand-lg bg-dark text-white">
     <div class="container-fluid">
-        <img src="./View/images/Logo.jpg" class="Logo">
+        <img src="./View/images/viejito.jpg" class="Logo">
         <div class="titulo">
             <h2><u>El Asilo del Libro</u></h2>
 
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon text-white"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                <a class="nav-link" href="./View/Libros.php">Libros</a>
-                <a class="nav-link" href="./View/Comics.php">Comics</a>
-                <a class="nav-link" href="./View/Autores.php">Autores</a>
-                <a class="nav-link" href="./View/Descuentos.php">Promociones</a>
-                <a class="nav-link" href="./View/login.php">Iniciar Sesion</a>
+        <div class="collapse navbar-collapse text-white" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-white" >
+                <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link text-white" href="./View/Libros.php">Libros</a>
+                <a class="nav-link text-white" href="./View/Comics.php">Comics</a>
+                <a class="nav-link text-white" href="./View/Autores.php">Autores</a>
+                <a class="nav-link text-white" href="./View/Descuentos.php">Promociones</a>
+                <a class="nav-link text-white" href="./View/socios.php">Socios</a>
+                <a class="nav-link text-white" href="./View/login.php">Iniciar Sesion</a>
             </div>
         </div>
     </div>
@@ -41,13 +42,20 @@ function footer()
 
 function secondNav()
 {
-    echo '<nav class="navbar bg-light">
+    echo '<nav class="navbar bg-dark text-white">
     <div class="container-fluid">
-      <a class="navbar-brand">El Asilo del Libro</a>
+      <a class="navbar-brand text-white" href="/trabajoWeb/index.php">El Asilo del Libro </a>      
+                <a class="nav-link" href="./Libros.php">Libros</a>
+                <a class="nav-link" href="./Comics.php">Comics</a>
+                <a class="nav-link" href="./Autores.php">Autores</a>
+                <a class="nav-link" href="./Descuentos.php">Promociones</a>
+                <a class="nav-link" href="./socios.php">Socios</a>
+                <a class="nav-link" href="./login.php">Iniciar Sesion</a>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+
     </div>
   </nav>';
 }

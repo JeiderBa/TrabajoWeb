@@ -70,15 +70,13 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
 
                                                     <!-- Checkbox -->
                                                     <div class="form-check d-flex justify-content-center mb-4">
-                                                        <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33" checked />
-                                                        <label class="form-check-label" for="form2Example33">
-                                                            Acepto
-                                                        </label>
+                                                        <button type="submit" id="btnsesion" name="btnsesion" class="btn btn-primary btn-block mb-4">
+                                                            Ingresar
+                                                        </button>
                                                     </div>
-
                                                     <!-- Submit button -->
-                                                    <button type="submit" id="btnsesion" name="btnsesion" class="btn btn-primary btn-block mb-4">
-                                                        Entrar
+                                                    <button type="submit" id="btnregistro" name="btnregistro" class="btn btn-primary btn-block mb-4">
+                                                        Registrar
                                                     </button>
                                                 </form>
                                             </div>
