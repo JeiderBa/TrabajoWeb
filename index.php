@@ -1,6 +1,6 @@
 <?php
 include_once '.\view\generales.php';
-include_once __DIR__ . '\View\controller\usuarioController.php';
+include_once __DIR__ . '\controller\usuarioController.php';
 ?>
 
 <!DOCTYPE html>
@@ -38,7 +38,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="View/images/autor.jpg.png" class="card-img-top">
+                <img src="View/images/autor.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Javier Castillo</h5>
                     <p class="card-text">
@@ -88,8 +88,8 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
                     <h5 class="card-title">Marvel Comic</h5>
                     <p class="card-text">Descripcion: Cuenta entre sus personajes a superhéroes tan conocidos como
                         Spider-Man, Iron Man, Capitán América y equipos como Los Vengadores, los X-Men, entre otros.
-                        Autor:Martin Goodman
-                        Precio:24000</p>
+                    <p class="card-text">Autor:Martin Goodman</p>
+                    <p class="card-text">Precio:24000</p>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
             <div class="card-ob">
                 <img src="View/images/principito.png" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">El Principito</h5>
+                    <h4 class="card-title">El Principito</h4>
                     <p class="card-text">Descripcion: El principito es una novela corta y la obra más famosa del
                         escritor y aviador francés Antoine de Saint-Exupéry.
                         Autor:Antoine de Saint-Exupéry
@@ -163,4 +163,5 @@ include_once __DIR__ . '\View\controller\usuarioController.php';
 <?php
 footer();
 ?>
+
 </html>

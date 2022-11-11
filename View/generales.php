@@ -14,12 +14,12 @@ function navBar()
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
                 <a class="nav-link" href="./View/Libros.php">Libros</a>
                 <a class="nav-link" href="./View/Comics.php">Comics</a>
                 <a class="nav-link" href="./View/Autores.php">Autores</a>
                 <a class="nav-link" href="./View/Descuentos.php">Promociones</a>
-                <a class="nav-link" href="./View/login.php">Log In</a>
+                <a class="nav-link" href="./View/login.php">Iniciar Sesion</a>
             </div>
         </div>
     </div>

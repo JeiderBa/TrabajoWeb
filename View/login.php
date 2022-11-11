@@ -1,10 +1,12 @@
 <?php
-include_once __DIR__ . '..\controller\usuarioController.php';
+include_once __DIR__ . '\..\controller\usuarioController.php';
 ?>
 
 <!DOCTYPE html>
+
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilosLogin.css" type="text/css" />
     <title>Login</title>
 </head>
 
@@ -12,47 +14,6 @@ include_once __DIR__ . '..\controller\usuarioController.php';
     <form role="form" action="" method="post">
         <!-- Section: Design Block -->
         <section class="background-radial-gradient overflow-hidden">
-            <style>
-                .background-radial-gradient {
-                    background-color: hsl(218, 41%, 15%);
-                    background-image: radial-gradient(650px circle at 0% 0%,
-                            hsl(218, 41%, 35%) 15%,
-                            hsl(218, 41%, 30%) 35%,
-                            hsl(218, 41%, 20%) 75%,
-                            hsl(218, 41%, 19%) 80%,
-                            transparent 100%),
-                        radial-gradient(1250px circle at 100% 100%,
-                            hsl(218, 41%, 45%) 15%,
-                            hsl(218, 41%, 30%) 35%,
-                            hsl(218, 41%, 20%) 75%,
-                            hsl(218, 41%, 19%) 80%,
-                            transparent 100%);
-                }
-
-                #radius-shape-1 {
-                    height: 220px;
-                    width: 220px;
-                    top: -60px;
-                    left: -130px;
-                    background: radial-gradient(#44006b, #ad1fff);
-                    overflow: hidden;
-                }
-
-                #radius-shape-2 {
-                    border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
-                    bottom: -60px;
-                    right: -110px;
-                    width: 300px;
-                    height: 300px;
-                    background: radial-gradient(#44006b, #ad1fff);
-                    overflow: hidden;
-                }
-
-                .bg-glass {
-                    background-color: hsla(0, 0%, 100%, 0.9) !important;
-                    backdrop-filter: saturate(200%) blur(25px);
-                }
-            </style>
 
             <body>
                 <form role="form" action="" method="post">

@@ -1,6 +1,4 @@
 <?php
-
- 
 include_once __DIR__ . '\..\model\usuarioModel.php';
 
 if(isset($_POST["btnsesion"]))
@@ -88,16 +86,12 @@ function ListarAutores()
     {
         while($fila = mysqli_fetch_array($datos))
         {
+            echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["idAutor"] . '">';
+
           echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["nombreAutor"] . '">';
           echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["primerApellido"] . '">';
           echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["reconocimientos"] . '">';
           echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["obras"] . '">';
-
-
-
-
-
-           
         }
     }
 }
