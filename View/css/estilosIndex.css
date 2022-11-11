@@ -45,3 +45,8 @@
     text-align: center;
     margin: 20px;
 }
+
+.btn btn-info{
+    justify-content: center;
+    font-size: 2rem;
+}

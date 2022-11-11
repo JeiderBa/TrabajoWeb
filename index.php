@@ -14,7 +14,8 @@ include_once __DIR__ . '\controller\usuarioController.php';
     <link rel="stylesheet" href="./View/css/estilos.css" type="text/css" />
     <link rel="stylesheet" href="./View/css/estilosIndex.css" type="text/css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 
 <body>
@@ -32,6 +33,9 @@ include_once __DIR__ . '\controller\usuarioController.php';
                     <p class="card-text">Contamos con libros antiguos a los mas nuevos.
                         ¡Busca el libro que necesitas de ficcion, salud, ediciones limitadas, novelas, entre otras
                         categorias!</p>
+                    <div class="col-md-3 margin-bottom-15">
+                    <a class="btn btn-info" name="btnVerMas" id="btnVerMas" href="./View/Libros.php"> Ver mas </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,6 +51,9 @@ include_once __DIR__ . '\controller\usuarioController.php';
                         -La chica de nieve
                         -El juego del alma.
                         Con premios como del "Mejor escrito del año"</p>
+                        <div class="col-md-3 margin-bottom-15">
+                    <a class="btn btn-info" name="btnVerMas" id="btnVerMas" href="./View/Autores.php"> Ver mas </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -58,6 +65,9 @@ include_once __DIR__ . '\controller\usuarioController.php';
                     <h5 class="card-title">Hazte Socio</h5>
                     <p class="card-text">¡Obtene nuestro paquete premium para tener acceso privilegeado a nuestros
                         productos y con ello descuen!</p>
+                        <div class="col-md-3 margin-bottom-15">
+                    <a class="btn btn-info" name="btnVerMas" id="btnVerMas" href="./View/Socios.php"> Ver mas </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,8 +78,12 @@ include_once __DIR__ . '\controller\usuarioController.php';
                 <div class="card-body">
                     <h5 class="card-title">Comics</h5>
                     <p class="card-text">Contamos con comics de acción, horror, romance, entre otros.
+                        
 
                         ¡Encuentra nuestra gran variedad!</p>
+                        <div class="col-md-3 margin-bottom-15">
+                    <a class="btn btn-info" name="btnVerMas" id="btnVerMas" href="./View/Comics.php"> Ver mas </a>
+                    </div>
                 </div>
             </div>
         </div>
