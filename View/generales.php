@@ -8,12 +8,12 @@ function navBar()
             <h2><u>El Asilo del Libro</u></h2>
 
         </div>
-        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon text-white"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-white" id="navbarNavAltMarkup">
-            <div class="navbar-nav text-white" >
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav" >
                 <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
                 <a class="nav-link text-white" href="./View/Libros.php">Libros</a>
                 <a class="nav-link text-white" href="./View/Comics.php">Comics</a>

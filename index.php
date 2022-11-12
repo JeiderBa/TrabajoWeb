@@ -88,7 +88,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
 
     <div class="second-titule">
-        <h1><u>Libros</u></h1>
+        <h1><u>Libros y Comics</u></h1>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-2">
 
