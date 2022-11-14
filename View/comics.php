@@ -110,4 +110,9 @@ include_once '.\generales.php';
 
 </body>
 
+<?php
+footer();
+?>
+
+
 </html>

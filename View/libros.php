@@ -104,5 +104,8 @@ include_once '.\generales.php';
     <p>
 
 </body>
+<?php
+footer();
+?>
 
 </html>

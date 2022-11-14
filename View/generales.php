@@ -14,11 +14,10 @@ function navBar()
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav" >
-                <a class="nav-link text-white" aria-current="page" href="#">Inicio</a>
                 <a class="nav-link text-white" href="./View/Libros.php">Libros</a>
                 <a class="nav-link text-white" href="./View/Comics.php">Comics</a>
                 <a class="nav-link text-white" href="./View/Autores.php">Autores</a>
-                <a class="nav-link text-white" href="./View/Descuentos.php">Promociones</a>
+                <a class="nav-link text-white" href="./View/Descuentos.php">Descuentos</a>
                 <a class="nav-link text-white" href="./View/socios.php">Socios</a>
                 <a class="nav-link text-white" href="./View/login.php">Iniciar Sesion</a>
             </div>
@@ -33,8 +32,7 @@ function footer()
     <footer class="bg-light text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            © 2022 Copyright
         </div>
         <!-- Copyright -->
     </footer>';
@@ -48,7 +46,7 @@ function secondNav()
                 <a class="nav-link" href="./Libros.php">Libros</a>
                 <a class="nav-link" href="./Comics.php">Comics</a>
                 <a class="nav-link" href="./Autores.php">Autores</a>
-                <a class="nav-link" href="./Descuentos.php">Promociones</a>
+                <a class="nav-link" href="./Descuentos.php">Descuentos</a>
                 <a class="nav-link" href="./socios.php">Socios</a>
                 <a class="nav-link" href="./login.php">Iniciar Sesion</a>
       <form class="d-flex" role="search">
