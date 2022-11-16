@@ -95,4 +95,32 @@ function ListarAutores()
         }
     }
 }
+
+
+if(isset($_POST["btnguardar"]))
+{
+
+    $TipoUsuario = $_POST["cboTipoUsuario"];
+    $nombreUsuario = $_POST["txtNombreR"];
+    $primerApellido = $_POST["txtPApellidoR"];
+    $segundoApellido = $_POST["txtSApellidoR"];
+    $telefono = $_POST["txtTelefonoR"];
+    $direccion = $_POST["txtDireccionR"];
+    $contrasenna = $_POST["txtContrasennaR"];
+    $correo = $_POST["txtCorreoR"];
+
+    $resultado = InsertarUsuarioModel($TipoUsuario,$nombreUsuario,$primerApellido,$segundoApellido,$telefono,$direccion,$contrasenna,$correo); 
+    
+    
+    if($resultado == true)
+    {
+        EnviarCorreo($Correo, 'Gracias por registrarte a El Asilo del Libro', 'Accede a todas nuestras opciones para leer');
+        header("Location: /trabajoWeb/index.php");      
+    }
+    else
+    {
+        //Que pasa si algo sale mal??
+        header("Location: /trabajoWeb/index.php");  
+    } 
+}
 ?>

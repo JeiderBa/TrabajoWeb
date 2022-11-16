@@ -42,42 +42,39 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                 <form>
                                                     <!-- 2 column grid layout with text inputs for the first and last names -->
                                                     <div class="row">
-                                                        <div class="col-md-6 mb-4">
+                                                        <div class="form-outline mb-4">
                                                             <div class="form-outline">
-                                                                <input type="text" id="form3Example1" class="form-control" />
-                                                                <label class="form-label" for="form3Example1">Nombre</label>
+                                                                <input type="text" id="txtNombreL" name="txtNombreL" autocomplete="Off" required class="form-control" />
+                                                                <label class="form-label">Nombre</label>
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-6 mb-4">
-                                                            <div class="form-outline">
-                                                                <input type="text" id="form3Example2" class="form-control" />
-                                                                <label class="form-label" for="form3Example2">Apellido</label>
-                                                            </div>
-                                                        </div>
+
                                                     </div>
 
                                                     <!-- Email input -->
                                                     <div class="form-outline mb-4">
-                                                        <input type="text" id="form3Example3" name="form3Example3" class="form-control" onblur="ValidarExisteCedula()" />
-                                                        <label class="form-label" for="form3Example3">Correo Electronico</label>
+                                                        <input type="email" id="txtCorreoL" name="txtCorreoL" autocomplete="Off" required class="form-control" onblur="ValidarExisteCedula()" />
+                                                        <label class="form-label">Correo Electronico</label>
                                                     </div>
 
                                                     <!-- Password input -->
                                                     <div class="form-outline mb-4">
-                                                        <input type="password" id="form3Example4" name="form3Example4" class="form-control" />
-                                                        <label class="form-label" for="form3Example4">Contraseña</label>
+                                                        <input type="password" id="txtContrasennaL" name="txtContrasennaL" required class="form-control" />
+                                                        <label class="form-label">Contraseña</label>
                                                     </div>
 
                                                     <!-- Checkbox -->
                                                     <div class="form-check d-flex justify-content-center mb-4">
-                                                        <button type="submit" id="btnsesion" name="btnsesion" class="btn btn-primary btn-block mb-4">
-                                                            Ingresar
-                                                        </button>
+                                                        <button type="submit" id="btnsesion" name="btnsesion" class="btn btn-primary btn-block mb-4">Ingresar</button>
                                                     </div>
                                                     <!-- Submit button -->
-                                                    <button type="submit" id="btnregistro" name="btnregistro" class="btn btn-primary btn-block mb-4">
-                                                        Registrar
-                                                    </button>
+                                                    <div class="col-md-3 margin-bottom-15">
+                                                        <a class="btn btn-primary" name="btnregistro" id="btnregistro" href="./Registrar.php"> Registrar </a>
+                                                    </div>
+
+                                                    <div class="col-md-3 margin-bottom-15">
+                                                        <a class="btn btn-primary" name="btnregistro" id="btnregistro" href="/trabajoWeb/index.php"> Cancelar </a>
+                                                    </div>
                                                 </form>
                                             </div>
                                         </div>

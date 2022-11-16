@@ -64,4 +64,18 @@ function ListarAutoresModel()
     CloseDB($enlace);
     return $datos;
 }
-?>
+
+function InsertarUsuarioModel($TipoUsuario,$nombreUsuario,$primerApellido,$segundoApellido,$telefono,$direccion,$contrasenna,$correo)
+{
+    $enlace = OpenDB();
+    $resultado = false;
+
+
+    $procedimiento = "call InsertarUsuario($TipoUsuario,'$nombreUsuario','$primerApellido','$segundoApellido','$telefono','$direccion','$contrasenna','$correo');";
+    if($enlace -> query($procedimiento))
+    {
+        $resultado = true; 
+    }
+
+    CloseDB($enlace);
+}
