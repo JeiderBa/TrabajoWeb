@@ -30,7 +30,7 @@ include_once __DIR__ . '\..\controller\UsuarioController.php';
                     <div class="col-md-12">
                         <br />
                         <div class="btn-group pull-right">
-                            <a href="#"><button type="button" class="btn btn-info">Añadir Usuario</button></a>
+                            <a href="./Registrar.php"><button type="button" class="btn btn-info">Añadir Usuario</button></a>
                         </div>
 
                         <br /><br /><br />
