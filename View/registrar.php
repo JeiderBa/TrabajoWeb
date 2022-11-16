@@ -117,7 +117,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         
                                                     </div>
                                                     <div class="col-md-3 margin-bottom-15">
-                                                        <a class="btn btn-primary" name="btnregistro" id="btnregistro" href="/trabajoWeb/index.php"> Cancelar </a>
+                                                        <a class="btn btn-secondary" name="btnregistro" id="btnregistro" href="/trabajoWeb/index.php"> Cancelar </a>
                                                     </div>
                                                 </form>
                                             </div>

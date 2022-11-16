@@ -5,7 +5,8 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
 <!DOCTYPE html>
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilosLogin.css" type="text/css" />
     <title>Login</title>
 </head>
@@ -34,7 +35,8 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                     </div>
 
                                     <div class="col-lg-6 mb-5 mb-lg-0 position-relative">
-                                        <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+                                        <div id="radius-shape-1"
+                                            class="position-absolute rounded-circle shadow-5-strong"></div>
                                         <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
 
                                         <div class="card bg-glass">
@@ -44,7 +46,8 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                     <div class="row">
                                                         <div class="form-outline mb-4">
                                                             <div class="form-outline">
-                                                                <input type="text" id="txtNombreL" name="txtNombreL" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtNombreL" name="txtNombreL"
+                                                                    autocomplete="Off" required class="form-control" />
                                                                 <label class="form-label">Nombre</label>
                                                             </div>
                                                         </div>
@@ -53,29 +56,37 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
 
                                                     <!-- Email input -->
                                                     <div class="form-outline mb-4">
-                                                        <input type="email" id="txtCorreoL" name="txtCorreoL" autocomplete="Off" required class="form-control" onblur="ValidarExisteCedula()" />
+                                                        <input type="email" id="txtCorreoL" name="txtCorreoL"
+                                                            autocomplete="Off" required class="form-control" />
                                                         <label class="form-label">Correo Electronico</label>
                                                     </div>
 
                                                     <!-- Password input -->
                                                     <div class="form-outline mb-4">
-                                                        <input type="password" id="txtContrasennaL" name="txtContrasennaL" required class="form-control" />
+                                                        <input type="password" id="txtContrasennaL"
+                                                            name="txtContrasennaL" required class="form-control" />
                                                         <label class="form-label">Contraseña</label>
                                                     </div>
 
                                                     <!-- Checkbox -->
                                                     <div class="form-check d-flex justify-content-center mb-4">
-                                                        <button type="submit" id="btnsesion" name="btnsesion" class="btn btn-primary btn-block mb-4">Ingresar</button>
+                                                        <button type="submit" id="btnsesion" name="btnsesion"
+                                                            class="btn btn-primary btn-block mb-4">Ingresar</button>
                                                     </div>
                                                     <!-- Submit button -->
                                                     <div class="col-md-3 margin-bottom-15">
-                                                        <a class="btn btn-primary" name="btnregistro" id="btnregistro" href="./Registrar.php"> Registrar </a>
+                                                        <div class="position-absolute bottom-10 start-50">
+                                                            <a class="btn btn-primary" name="btnregistro"
+                                                                id="btnregistro" href="./Registrar.php"> Registrar </a>
+                                                        </div>
                                                     </div>
 
-                                                    <br />
-
                                                     <div class="col-md-3 margin-bottom-15">
-                                                        <a class="btn btn-primary" name="btnregistro" id="btnregistro" href="/trabajoWeb/index.php"> Cancelar </a>
+                                                        <div class="position-absolute bottom-10 end-50">
+                                                            <a class="btn btn-secondary" name="btnregistro"
+                                                                id="btnregistro" href="/trabajoWeb/index.php"> Cancelar
+                                                            </a>
+                                                        </div>
                                                     </div>
                                                 </form>
                                             </div>
