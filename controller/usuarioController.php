@@ -86,12 +86,25 @@ function ListarAutores()
     {
         while($fila = mysqli_fetch_array($datos))
         {
-            echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["idAutor"] . '">';
+            echo '
+            <div class="card" style="width: 100%;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+               
+                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["idAutor"] . '">
+ 
+                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["nombreAutor"] . '">
+                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["primerApellido"] . '">
+                <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["reconocimientos"] . '">
+                 <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["obras"] . '">
 
-          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["nombreAutor"] . '">';
-          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["primerApellido"] . '">';
-          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["reconocimientos"] . '">';
-          echo ' <input type="text" class="form-control" id="txtNombre" name="txtNombre" value="'. $fila["obras"] . '">';
+            </div>
+        </div>';
+
+           
         }
     }
 }

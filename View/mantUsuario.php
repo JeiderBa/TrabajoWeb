@@ -10,9 +10,7 @@ include_once __DIR__ . '\..\controller\UsuarioController.php';
 <head>
     <title>Usuarios</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="./View/css/estilos.css" type="text/css" />
-
-</head>
+ </head>
 
 <body>
 
