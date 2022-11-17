@@ -14,12 +14,24 @@ function navBar()
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav" >
-                <a class="nav-link text-white" href="./View/Libros.php">Libros</a>
-                <a class="nav-link text-white" href="./View/Comics.php">Comics</a>
-                <a class="nav-link text-white" href="./View/Autores.php">Autores</a>
+                 <div class="dropdown">
+                      <button class="btn btn-dark">Categorias </button>
+                     <div class="dropdown-content">
+                               <a href="./View/Libros.php">Libros</a>
+                               <a href="./View/Comics.php">Comics</a>
+                               <a href="./View/Autores.php">Autores</a>
+                          </div>
+                    </div>
                 <a class="nav-link text-white" href="./View/Descuentos.php">Descuentos</a>
                 <a class="nav-link text-white" href="./View/socios.php">Socios</a>
-                <a class="nav-link text-white" href="./View/login.php">Iniciar Sesion</a>
+                <div class="dropdown">
+                     <button class="btn btn-dark">Opciones </button>
+                    <div class="dropdown-content">
+                         <a href="./View/login.php">Iniciar Sesion</a>
+                         <a href="./View/registrar.php"">Registrar</a>
+                         <a href="#">Cerrar Sesion</a>
+                     </div>
+                </div>
             </div>
         </div>
     </div>
