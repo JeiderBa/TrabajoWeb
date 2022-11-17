@@ -43,7 +43,7 @@ $datos = ConsultarDatosUsuario($_GET["q"]);
 
                             <div class="col-md-3 margin-bottom-15">
                                 <label class="control-label">Nombre</label>
-                                <input type="text" class="form-control" id="txtNombre" name="txtNombre"
+                                <input type="text" class="form-control" id="txtnombre" name="txtnombre"
                                     value="<?php echo $datos["nombreUsuario"] ?>">
                             </div>
 

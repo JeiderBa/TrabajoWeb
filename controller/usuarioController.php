@@ -66,8 +66,8 @@ function ListarTiposUsuario($tipo)
 
 if(isset($_POST["btnActualizar"]))
 {
-    $Nombre = $_POST["txtNombre"];
-    $PrimerApellido = $_POST["txtPrimerApellido"];
+    $NombreUsuario = $_POST["txtnombre"];
+    $PrimerApellido = $_POST["txtApellido"];
     $Contrasenna = $_POST["txtContrasenna"];
     $Telefono = $_POST["txtTelefono"];
     $TipoUsuario = $_POST["cboTipoUsuario"];
@@ -87,7 +87,7 @@ function ListarAutores()
         while($fila = mysqli_fetch_array($datos))
         {
             echo '
-            <div class="card" style="width: 100%;">
+            <div class="card" style="width: 80%;">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
