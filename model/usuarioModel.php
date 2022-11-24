@@ -54,16 +54,6 @@ function ActualizarUsuarioModel($NombreUsuario,$PrimerApellido,$Contrasenna,$Tel
     CloseDB($enlace);
 }
 
-function ListarAutoresModel()
-{
-    $enlace = OpenDB();
-
-    $procedimiento = "call ListarAutores();";
-    $datos = $enlace -> query($procedimiento);
-
-    CloseDB($enlace);
-    return $datos;
-}
 
 function InsertarUsuarioModel($TipoUsuario,$nombreUsuario,$primerApellido,$segundoApellido,$telefono,$direccion,$contrasenna,$correo)
 {
