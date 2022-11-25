@@ -15,10 +15,10 @@ function navBar()
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav" >
                  <div class="dropdown">
-                      <button class="btn btn-dark">Categorias </button>
+                      <button class="btn btn-dark">Categorías </button>
                      <div class="dropdown-content">
                                <a href="./View/Libros.php">Libros</a>
-                               <a href="./View/Comics.php">Comics</a>
+                               <a href="./View/Comics.php">Cómics</a>
                                <a href="./View/Autores.php">Autores</a>
                           </div>
                     </div>
@@ -27,9 +27,9 @@ function navBar()
                 <div class="dropdown">
                      <button class="btn btn-dark">Opciones </button>
                     <div class="dropdown-content">
-                         <a href="./View/login.php">Iniciar Sesion</a>
+                         <a href="./View/login.php">Iniciar Sesión</a>
                          <a href="./View/registrar.php"">Registrar</a>
-                         <a href="#">Cerrar Sesion</a>
+                         <a href="#">Cerrar Sesión</a>
                      </div>
                 </div>
             </div>
@@ -56,11 +56,11 @@ function secondNav()
     <div class="container-fluid">
       <a class="navbar-brand text-white" href="/trabajoWeb/index.php">El Asilo del Libro </a>      
                 <a class="nav-link" href="./Libros.php">Libros</a>
-                <a class="nav-link" href="./Comics.php">Comics</a>
+                <a class="nav-link" href="./Comics.php">Cómics</a>
                 <a class="nav-link" href="./Autores.php">Autores</a>
                 <a class="nav-link" href="./Descuentos.php">Descuentos</a>
                 <a class="nav-link" href="./socios.php">Socios</a>
-                <a class="nav-link" href="./login.php">Iniciar Sesion</a>
+                <a class="nav-link" href="./login.php">Iniciar Sesión</a>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
