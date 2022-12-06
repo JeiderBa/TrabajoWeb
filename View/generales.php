@@ -89,18 +89,18 @@ function secondNav()
                    <div class="dropdown">
                         <button class="btn btn-dark">Categorías </button>
                        <div class="dropdown-content">
-                                 <a href="./View/Libros.php">Libros</a>
-                                 <a href="./View/Comics.php">Cómics</a>
-                                 <a href="./View/Autores.php">Autores</a>
+                                 <a href="./Libros.php">Libros</a>
+                                 <a href="./Comics.php">Cómics</a>
+                                 <a href="./Autores.php">Autores</a>
                             </div>
                       </div>
-                  <a class="nav-link text-white" href="./View/Descuentos.php">Descuentos</a>
+                  <a class="nav-link text-white" href="./Descuentos.php">Descuentos</a>
                   <a class="nav-link text-white" href="./mantUsuario.php">Usuarios</a>
                   <div class="dropdown">
                        <button class="btn btn-dark">Opciones </button>
                       <div class="dropdown-content">
-                           <a href="./View/login.php">Iniciar Sesión</a>
-                           <a href="./View/registrar.php"">Registrar</a>
+                           <a href="./login.php">Iniciar Sesión</a>
+                           <a href="./registrar.php"">Registrar</a>
                            <a href="">Cerrar Sesión</a>
                        </div>
                   </div>
