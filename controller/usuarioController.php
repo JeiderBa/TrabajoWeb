@@ -13,7 +13,15 @@ if(isset($_POST["btnsesion"]))
         $datosUsuario = mysqli_fetch_array($datos);
         $_SESSION["txtCorreoL"] = $datosUsuario["correo"];
         $_SESSION["txtContrasennaL"] = $datosUsuario["contrasenna"];
-        header("Location: ../index.php");
+        $_SESSION["tipoUsuario"] = $datosUsuario["tipoUsuario"];
+         if( $_SESSION["tipoUsuario"] == 1){
+             header("Location: ..\View\admin.php");
+             }
+             elseif( $_SESSION["tipoUsuario"] ==2){
+              
+              header("Location: ../index.php");
+                
+             }
     }
     else
     {

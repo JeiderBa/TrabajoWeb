@@ -29,7 +29,7 @@ function navBar()
                     <div class="dropdown-content">
                          <a href="./View/login.php">Iniciar Sesión</a>
                          <a href="./View/registrar.php"">Registrar</a>
-                         <a href="#">Cerrar Sesión</a>
+                         <a href="">Cerrar Sesión</a>
                      </div>
                 </div>
             </div>
@@ -69,3 +69,43 @@ function secondNav()
     </div>
   </nav>';
 }
+
+
+  function navBarAdmin()
+  {
+      echo ' <nav class="navbar navbar-expand-lg bg-dark text-white">
+      <div class="container-fluid">
+          <img src="./images/viejito.jpg" class="Logo">
+          <div class="titulo">
+              <h2><u>El Asilo del Libro</u></h2>
+  
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav" >
+                   <div class="dropdown">
+                        <button class="btn btn-dark">Categorías </button>
+                       <div class="dropdown-content">
+                                 <a href="./View/Libros.php">Libros</a>
+                                 <a href="./View/Comics.php">Cómics</a>
+                                 <a href="./View/Autores.php">Autores</a>
+                            </div>
+                      </div>
+                  <a class="nav-link text-white" href="./View/Descuentos.php">Descuentos</a>
+                  <a class="nav-link text-white" href="./mantUsuario.php">Usuarios</a>
+                  <div class="dropdown">
+                       <button class="btn btn-dark">Opciones </button>
+                      <div class="dropdown-content">
+                           <a href="./View/login.php">Iniciar Sesión</a>
+                           <a href="./View/registrar.php"">Registrar</a>
+                           <a href="">Cerrar Sesión</a>
+                       </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </nav>';
+  }

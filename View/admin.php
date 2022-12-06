@@ -3,8 +3,8 @@ if (session_status() == PHP_SESSION_NONE)
 {
     session_start();
 }
-include_once '.\view\generales.php';
-include_once __DIR__ . '\controller\usuarioController.php';
+include_once '.\generales.php';
+include_once __DIR__ . '\..\controller\usuarioController.php';
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +15,8 @@ include_once __DIR__ . '\controller\usuarioController.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <link rel="stylesheet" href="./View/css/estilos.css" type="text/css" />
-    <link rel="stylesheet" href="./View/css/estilosIndex.css" type="text/css" />
+    <link rel="stylesheet" href="./css/estilos.css" type="text/css" />
+    <link rel="stylesheet" href="./css/estilosIndex.css" type="text/css" />
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -24,7 +24,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
 <body>
     <?php
-    navBar();
+    navBarAdmin();
     ?>
     <style type="text/css">
     .dropdown {
@@ -55,7 +55,8 @@ include_once __DIR__ . '\controller\usuarioController.php';
         color: #ffffff;
         background-color: #000000;
     }
-    .dropdown-content{
+
+    .dropdown-content {
         z-index: 3;
     }
     </style>
@@ -64,7 +65,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="View/images/Libros.jpg" class="card-img-top">
+                <img src="./images/Libros.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Libros</h5>
                     <p class="card-text">Contamos con libros antiguos a los mas nuevos.
@@ -79,7 +80,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="View/images/autor.jpg" class="card-img-top">
+                <img src="./images/autor.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Javier Castillo</h5>
                     <p class="card-text">
@@ -97,7 +98,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="View/images/segunda.png" class="card-img-top">
+                <img src="./images/segunda.png" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Hazte Socio</h5>
                     <p class="card-text">¡Obtene nuestro paquete premium para tener acceso privilegeado a nuestros
@@ -111,7 +112,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="View/images/cuarta.jpg" class="card-img-top">
+                <img src="./images/cuarta.jpg" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Cómics</h5>
                     <p class="card-text">Contamos con cómics de acción, horror, romance, entre otros.
@@ -132,7 +133,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col">
             <div class="card-ob">
-                <img src="View/images/marvel.jpg" class="card-img-top" alt="...">
+                <img src="./images/marvel.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Marvel Comic</h5>
                     <p class="card-text">Descripción: Cuenta entre sus personajes a superhéroes tan conocidos como
@@ -148,7 +149,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col">
             <div class="card-ob">
-                <img src="View/images/principito.png" class="card-img-top" alt="...">
+                <img src="./images/principito.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4 class="card-title">El Principito</h4>
                     <p class="card-text">Descripción: El principito es una novela corta y la obra más famosa del
@@ -164,7 +165,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col">
             <div class="card-ob">
-                <img src="View/images/iron.jpg" class="card-img-top" alt="...">
+                <img src="./images/iron.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">The Invinsible Iron Man</h5>
                     <p class="card-text">Descripción: Iron Man es el nombre de varios títulos de cómics que presentan al
@@ -180,7 +181,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col">
             <div class="card-ob">
-                <img src="View/images/harry.jpg" class="card-img-top" alt="...">
+                <img src="./images/harry.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Harry Potter y la piedra filosofal</h5>
                     <p class="card-text">Descripción: El día de su cumpleaños, Harry Potter descubre que es hijo de dos
@@ -196,10 +197,11 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col">
             <div class="card-ob">
-                <img src="View/images/antes.jpg" class="card-img-top" alt="...">
+                <img src="./images/antes.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Yo Antes de Ti</h5>
-                    <p class="card-text">Descripción: Yo antes de ti es una novela romántica de la escritora británica de
+                    <p class="card-text">Descripción: Yo antes de ti es una novela romántica de la escritora británica
+                        de
                         Jojo Moyes para jóvenes adultos publicada en 2012.
                     <p class="card-text">Autor: Jojo Moyes</p>
                     <p class="card-text">Precio: 11000 colones</p>
@@ -212,7 +214,7 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col">
             <div class="card-ob">
-                <img src="View/images/one.jpg" class="card-img-top" alt="...">
+                <img src="./images/one.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">One Piece</h5>
                     <p class="card-text">Descripción: Únete a Monkey D. Luffy y su equipo de capa y espada en su
@@ -227,10 +229,6 @@ include_once __DIR__ . '\controller\usuarioController.php';
         </div>
     </div>
 </body>
-
-<?php
-modal();
-?>
 
 
 <?php
