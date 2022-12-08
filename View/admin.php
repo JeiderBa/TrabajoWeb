@@ -72,7 +72,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                         ¡Busca el libro que necesitas de ficción, salud, ediciones limitadas, novelas, entre otras
                         categorías!</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./View/Libros.php"> Ver más </a>
+                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./Libros.php"> Ver más </a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                         -El juego del alma.
                         Con premios como del "Mejor escrito del año"</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./View/Autores.php"> Ver más </a>
+                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./Autores.php"> Ver más </a>
                     </div>
                 </div>
             </div>
@@ -98,13 +98,12 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="./images/segunda.png" class="card-img-top">
+                <img src="./images/descu.png" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Hazte Socio</h5>
-                    <p class="card-text">¡Obtene nuestro paquete premium para tener acceso privilegeado a nuestros
-                        productos y con ello descuentos!</p>
+                    <h5 class="card-title">Descuentos</h5>
+                    <p class="card-text">¡Aprovecha los descuentos que El Asilo del Libro tiene para vos!</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./View/Socios.php"> Ver más </a>
+                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./descuentos.php"> Ver más </a>
                     </div>
                 </div>
             </div>
@@ -118,7 +117,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                     <p class="card-text">Contamos con cómics de acción, horror, romance, entre otros.
                         ¡Encuentra nuestra gran variedad!</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./View/Comics.php"> Ver más </a>
+                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./Comics.php"> Ver más </a>
                     </div>
                 </div>
             </div>

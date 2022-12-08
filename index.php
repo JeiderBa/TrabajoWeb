@@ -97,13 +97,12 @@ include_once __DIR__ . '\controller\usuarioController.php';
 
         <div class="col-f">
             <div class="card">
-                <img src="View/images/segunda.png" class="card-img-top">
+                <img src="View/images/descu.png" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Hazte Socio</h5>
-                    <p class="card-text">¡Obtene nuestro paquete premium para tener acceso privilegeado a nuestros
-                        productos y con ello descuentos!</p>
+                    <h5 class="card-title">Descuentos</h5>
+                    <p class="card-text">¡Aprovecha los descuentos que El Asilo del Libro tiene para vos!</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./View/Socios.php"> Ver más </a>
+                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="./View/descuentos.php"> Ver más </a>
                     </div>
                 </div>
             </div>
@@ -227,11 +226,6 @@ include_once __DIR__ . '\controller\usuarioController.php';
         </div>
     </div>
 </body>
-
-<?php
-modal();
-?>
-
 
 <?php
 footer();

@@ -23,7 +23,6 @@ function navBar()
                           </div>
                     </div>
                 <a class="nav-link text-white" href="./View/Descuentos.php">Descuentos</a>
-                <a class="nav-link text-white" href="./View/socios.php">Socios</a>
                 <div class="dropdown">
                      <button class="btn btn-dark">Opciones </button>
                     <div class="dropdown-content">
@@ -59,7 +58,6 @@ function secondNav()
                 <a class="nav-link" href="./Comics.php">Cómics</a>
                 <a class="nav-link" href="./Autores.php">Autores</a>
                 <a class="nav-link" href="./Descuentos.php">Descuentos</a>
-                <a class="nav-link" href="./socios.php">Socios</a>
                 <a class="nav-link" href="./login.php">Iniciar Sesión</a>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -94,8 +92,8 @@ function secondNav()
                                  <a href="./Autores.php">Autores</a>
                             </div>
                       </div>
-                  <a class="nav-link text-white" href="./Descuentos.php">Descuentos</a>
-                  <a class="nav-link text-white" href="./mantUsuario.php">Usuarios</a>
+                      <a class="nav-link text-white" href="./View/Descuentos.php">Descuentos</a>                  
+                      <a class="nav-link text-white" href="./mantUsuario.php">Usuarios</a>
                   <div class="dropdown">
                        <button class="btn btn-dark">Opciones </button>
                       <div class="dropdown-content">
