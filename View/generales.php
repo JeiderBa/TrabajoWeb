@@ -1,6 +1,7 @@
 <?php
 function navBar()
 {
+    
     echo ' <nav class="navbar navbar-expand-lg bg-dark text-white">
     <div class="container-fluid">
         <img src="./View/images/viejito.jpg" class="Logo">
@@ -28,7 +29,7 @@ function navBar()
                     <div class="dropdown-content">
                          <a href="./View/login.php">Iniciar Sesión</a>
                          <a href="./View/registrar.php"">Registrar</a>
-                         <a href="">Cerrar Sesión</a>
+                         <a href="./controller/cerrarSesion.php">Cerrar Sesión</a>
                      </div>
                 </div>
             </div>
@@ -71,6 +72,7 @@ function secondNav()
 
   function navBarAdmin()
   {
+
       echo ' <nav class="navbar navbar-expand-lg bg-dark text-white">
       <div class="container-fluid">
           <img src="./images/viejito.jpg" class="Logo">
@@ -99,7 +101,7 @@ function secondNav()
                       <div class="dropdown-content">
                            <a href="./login.php">Iniciar Sesión</a>
                            <a href="./registrar.php"">Registrar</a>
-                           <a href="">Cerrar Sesión</a>
+                           <a href="../controller/cerrarSesion.php">Cerrar Sesión</a>
                        </div>
                   </div>
               </div>
