@@ -5,7 +5,8 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
 <!DOCTYPE html>
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilosLogin.css" type="text/css" />
     <title>Registrar</title>
 </head>
@@ -34,7 +35,8 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                     </div>
 
                                     <div class="col-lg-6 mb-5 mb-lg-15 position-relative">
-                                        <div id="radius-shape-1" class="position-absolute rounded-circle shadow-5-strong"></div>
+                                        <div id="radius-shape-1"
+                                            class="position-absolute rounded-circle shadow-5-strong"></div>
                                         <div id="radius-shape-2" class="position-absolute shadow-5-strong"></div>
 
                                         <div class="card bg-glass">
@@ -45,19 +47,24 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-4 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Nombre</label>
-                                                                <input type="text" id="txtNombreR" name="txtNombreR" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtNombreR" name="txtNombreR"
+                                                                    autocomplete="Off" required class="form-control" />
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Primer Apellido</label>
-                                                                <input type="text" id="txtPApellidoR" name="txtPApellidoR" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtPApellidoR"
+                                                                    name="txtPApellidoR" autocomplete="Off" required
+                                                                    class="form-control" />
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Segundo Apellido</label>
-                                                                <input type="text" id="txtSApellidoR" name="txtSApellidoR" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtSApellidoR"
+                                                                    name="txtSApellidoR" autocomplete="Off" required
+                                                                    class="form-control" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -68,13 +75,16 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-6 mb-4">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Correo Electronico</label>
-                                                                <input type="email" id="txtCorreoR" name="txtCorreoR" autocomplete="Off" required class="form-control" />
+                                                                <input type="email" id="txtCorreoR" name="txtCorreoR"
+                                                                    autocomplete="Off" required class="form-control" />
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6 mb-4">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Contraseña</label>
-                                                                <input type="password" id="txtContrasennaR" name="txtContrasennaR" autocomplete="Off" required class="form-control" />
+                                                                <input type="password" id="txtContrasennaR"
+                                                                    name="txtContrasennaR" autocomplete="Off" required
+                                                                    class="form-control" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -84,13 +94,16 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-6 mb-4">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Telefono</label>
-                                                                <input type="text" id="txtTelefonoR" name="txtTelefonoR" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtTelefonoR" name="txtTelefonoR"
+                                                                    autocomplete="Off" required class="form-control" />
                                                             </div>
                                                         </div>
                                                         <div class="col-md-6 mb-4">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Direccion</label>
-                                                                <input type="text" id="txtDireccionR" name="txtDireccionR" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtDireccionR"
+                                                                    name="txtDireccionR" autocomplete="Off" required
+                                                                    class="form-control" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -98,7 +111,8 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                     <div class="row">
                                                         <div class="col-md-6 margin-bottom-4">
                                                             <label class="control-label">Tipo Usuario</label>
-                                                            <select class="form-control" id="cboTipoUsuario" name="cboTipoUsuario" autocomplete="Off" required>
+                                                            <select class="form-control" id="cboTipoUsuario"
+                                                                name="cboTipoUsuario" autocomplete="Off" required>
                                                                 <?php
                                                                 ListarTiposUsuario($datos["tipoUsuario"]);
                                                                 ?>
@@ -111,13 +125,15 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                     <!-- Submit button -->
                                                     <br />
                                                     <div class="form-check d-flex justify-content-center mb-4">
-                                                        <button type="submit" id="btnguardar" name="btnguardar" class="btn btn-primary btn-block mb-4">
+                                                        <button onclick="mostrar()" type="submit" id="btnguardar"
+                                                            name="btnguardar" class="btn btn-primary btn-block mb-4">
                                                             Guardar
                                                         </button>
-                                                        
+
                                                     </div>
                                                     <div class="col-md-3 margin-bottom-15">
-                                                        <a class="btn btn-secondary" name="btnregistro" id="btnregistro" href="/trabajoWeb/index.php"> Cancelar </a>
+                                                        <a class="btn btn-secondary" name="btnregistro" id="btnregistro"
+                                                            href="/trabajoWeb/index.php"> Cancelar </a>
                                                     </div>
                                                 </form>
                                             </div>
@@ -127,6 +143,21 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                             </div>
                         </section>
                 </form>
+                <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+                <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+                <script type="text/javascript">
+                function mostrar() {
+
+                    Swal.fire({
+                        position: 'top-center',
+                        icon: 'success',
+                        title: 'Gracias por registrarse!',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                }
+                </script>
             </body>
 
             </html>

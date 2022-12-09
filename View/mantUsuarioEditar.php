@@ -13,7 +13,7 @@ $datos = ConsultarDatosUsuario($_GET["q"]);
     <title>Editar</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  
+
 </head>
 
 <body>
@@ -105,8 +105,8 @@ $datos = ConsultarDatosUsuario($_GET["q"]);
                         </div>
                         <div class="col-md-3 margin-bottom-15">
 
-                            <input type="submit" value="Guardar" class="btn btn-success" id="btnActualizar"
-                                name="btnActualizar">
+                            <input onclick="alert()" type="submit" value="Guardar" class="btn btn-success"
+                                id="btnActualizar" name="btnActualizar">
                             <a href="mantUsuario.php" class="btn btn-info">Cancelar</a>
 
 
@@ -120,6 +120,21 @@ $datos = ConsultarDatosUsuario($_GET["q"]);
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript">
+    function alert() {
+
+        Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: 'Se actualizó la información',
+            showConfirmButton: false,
+            timer: 3500
+        })
+    }
+    </script>
 </body>
 
 <?php
