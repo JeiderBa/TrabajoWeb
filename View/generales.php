@@ -32,6 +32,8 @@ function navBar()
                          <a href="./controller/cerrarSesion.php">Cerrar Sesión</a>
                      </div>
                 </div>
+                <a class="nav-link text-white" href="./View/agregarComentario.php">Ayuda</a>
+
             </div>
         </div>
     </div>
