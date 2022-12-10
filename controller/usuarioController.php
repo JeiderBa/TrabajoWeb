@@ -111,4 +111,15 @@ if(isset($_POST["btnguardar"]))
         header("Location: /trabajoWeb/index.php");  
     } 
 }
+if(isset($_POST["btnEnviar"]))
+{
+    $Nombre = $_POST["txtNombreC"];
+    $Correo = $_POST["txtCorreoC"];
+    $Comentario = $_POST["txtComentario"];
+
+    $resultado = InsertarComentarioModel($Nombre,$Correo,$Comentario);
+    header("Location: /TrabajoWeb/index.php");      
+   
+
+}
 ?>

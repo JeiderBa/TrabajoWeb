@@ -43,7 +43,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-6 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Nombre Completo</label>
-                                                                <input type="text" id="txtNombreC" name="txtNombreC" autocomplete="Off" required class="form-control" />
+                                                                <input type="text" id="txtNombreC" name="txtNombreC" autocomplete="Off"  class="form-control" required/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -54,7 +54,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-6 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Correo Electronico</label>
-                                                                <input type="email" id="txtCorreoC" name="txtCorreoC" autocomplete="Off" required class="form-control" />
+                                                                <input type="email" id="txtCorreoC" name="txtCorreoC" autocomplete="Off" class="form-control" required/>
                                                             </div>
                                                         </div>
 
@@ -63,7 +63,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-15 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Comentario</label>
-                                                                <input type="textarea" id="txtComentario" name="txtComentario" autocomplete="Off" required class="form-control" />
+                                                                <textarea type="text" id="txtComentario" name="txtComentario" autocomplete="Off"  class="form-control" ></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -72,7 +72,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                     <!-- Submit button -->
                                                     <br />
                                                     <div class="form-check d-flex justify-content-center mb-4">
-                                                    <a class="btn btn-primary" name="btnEnviar" id="btnEnviar" href="/trabajoWeb/index.php"> Enviar </a>
+                                                    <button class="btn btn-primary" name="btnEnviar" id="btnEnviar" onclick="mostrar()" > Enviar </button>
 
 
                                                     </div>
@@ -87,6 +87,21 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                             </div>
                         </section>
                 </form>
+                <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+                <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+                <script type="text/javascript">
+                function mostrar() {
+
+                    Swal.fire({
+                        position: 'top-center',
+                        icon: 'success',
+                        title: 'En breve estaremos en contacto!',
+                        showConfirmButton: true,
+                        timer: 1500
+                    })
+                }
+                </script>
                
             </body>
 
