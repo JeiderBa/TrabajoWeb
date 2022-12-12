@@ -13,7 +13,7 @@ function ListarComics()
             <div class="card mx-auto" style="width: 45%;">
             <img src="'. $fila["imagen"] . '" class="card-img-top" alt="...">
             <div class="card-body">
-                <h3 class="card-title">Libro</h3>
+                <h3 class="card-title">Cómic</h3>
 
                 <br />
 
