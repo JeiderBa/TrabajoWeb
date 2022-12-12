@@ -1,4 +1,5 @@
 <?php
+include_once '.\generales.php';
 include_once __DIR__ . '\..\controller\usuarioController.php';
 ?>
 
@@ -24,11 +25,11 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                 <div class="row gx-lg-5 align-items-center mb-5">
                                     <div class="col-lg-6 mb-5 mb-lg-0" style="z-index: 10">
                                         <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
-                                            El Asilo del Libro <br />                                           
+                                            El Asilo del Libro <br />
                                         </h1>
                                         <h1 class="my-5 display-5 fw-bold ls-tight" style="color: hsl(218, 81%, 95%)">
                                             <span style="color: hsl(218, 81%, 75%)">¡Deja los siguientes datos para solicitar ayuda!</span>
-                                        </h1>                                  
+                                        </h1>
                                     </div>
 
                                     <div class="col-lg-6 mb-5 mb-lg-15 position-relative">
@@ -43,7 +44,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-6 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Nombre Completo</label>
-                                                                <input type="text" id="txtNombreC" name="txtNombreC" autocomplete="Off"  class="form-control" required/>
+                                                                <input type="text" id="txtNombreC" name="txtNombreC" autocomplete="Off" class="form-control" required />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -54,7 +55,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-6 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Correo Electronico</label>
-                                                                <input type="email" id="txtCorreoC" name="txtCorreoC" autocomplete="Off" class="form-control" required/>
+                                                                <input type="email" id="txtCorreoC" name="txtCorreoC" autocomplete="Off" class="form-control" required />
                                                             </div>
                                                         </div>
 
@@ -63,7 +64,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                         <div class="col-md-15 mb-15">
                                                             <div class="form-outline">
                                                                 <label class="form-label">Comentario</label>
-                                                                <textarea type="text" id="txtComentario" name="txtComentario" autocomplete="Off"  class="form-control" ></textarea>
+                                                                <textarea type="text" id="txtComentario" name="txtComentario" autocomplete="Off" class="form-control"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -72,7 +73,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                                                     <!-- Submit button -->
                                                     <br />
                                                     <div class="form-check d-flex justify-content-center mb-4">
-                                                    <button class="btn btn-primary" name="btnEnviar" id="btnEnviar" onclick="mostrar()" > Enviar </button>
+                                                        <button class="btn btn-primary" name="btnEnviar" id="btnEnviar" onclick="mostrar()"> Enviar </button>
 
 
                                                     </div>
@@ -91,18 +92,21 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
                 <script type="text/javascript">
-                function mostrar() {
+                    function mostrar() {
 
-                    Swal.fire({
-                        position: 'top-center',
-                        icon: 'success',
-                        title: 'En breve estaremos en contacto!',
-                        showConfirmButton: true,
-                        timer: 2500
-                    })
-                }
+                        Swal.fire({
+                            position: 'top-center',
+                            icon: 'success',
+                            title: 'En breve estaremos en contacto!',
+                            showConfirmButton: true,
+                            timer: 2500
+                        })
+                    }
                 </script>
-               
+
             </body>
+            <?php
+            footer();
+            ?>
 
             </html>
