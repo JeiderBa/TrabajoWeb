@@ -32,7 +32,7 @@ function ListarLibros()
 
                 <br /><br />
 
-                <a href="#"><button type="button" class="btn btn-dark">Comprar</button></a>
+                <button type="submit" onClick="mostrar()" id="btnComprar" name="btnComprar" class="btn btn-dark">Apartar</button>
 
 
             </div>

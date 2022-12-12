@@ -32,7 +32,7 @@ function ListarComics()
 
                 <br /><br />
 
-                <a href="#"><button type="button" class="btn btn-dark">Comprar</button></a>
+                <button type="button" onClick="mostrar()" class="btn btn-dark">Apartar</button>
 
 
             </div>

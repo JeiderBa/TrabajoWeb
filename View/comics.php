@@ -32,7 +32,21 @@ include_once __DIR__ . '\..\controller\comicsController.php';
             <?php
             ListarComics();
             ?>
-    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript">
+    function mostrar() {
+
+        Swal.fire({
+            position: 'top-center',
+            icon: 'success',
+            title: '¡Cómic Apartado! Escribe en la sección de ayuda para proceder',
+            showConfirmButton: false,
+            timer: 3000
+        })
+    }
+    </script>
 
 </body>
 

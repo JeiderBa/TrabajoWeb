@@ -62,7 +62,7 @@ include_once __DIR__ . '\..\controller\UsuarioController.php';
 </body>
 
 <?php
-footer();
+footer2();
 ?>
 
 

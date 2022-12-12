@@ -61,11 +61,8 @@ function secondNav()
                 <a class="nav-link" href="./Comics.php">Cómics</a>
                 <a class="nav-link" href="./Autores.php">Autores</a>
                 <a class="nav-link" href="./Descuentos.php">Descuentos</a>
+                <a class="nav-link" href="./agregarComentario.php">Ayuda</a>
                 <a class="nav-link" href="./login.php">Iniciar Sesión</a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
 
     </div>
   </nav>';
@@ -111,3 +108,15 @@ function secondNav()
       </div>
   </nav>';
   }
+
+  function footer2()
+{
+    echo '
+    <footer class="fixed-bottom bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 El Asilo del Libro 
+        </div>
+        <!-- Copyright -->
+    </footer>';
+}

@@ -99,6 +99,8 @@ $datos = ConsultarDatosUsuario($_GET["q"]);
 
                     </div>
 
+                    <br /><br />
+
 
                     <div class="col-md-12">
                         <div class="col-md-8 margin-bottom-15">
@@ -138,7 +140,7 @@ $datos = ConsultarDatosUsuario($_GET["q"]);
 </body>
 
 <?php
-footer();
+footer2();
 ?>
 
 </html>

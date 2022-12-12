@@ -126,7 +126,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
 
 
     <div class="second-titule">
-        <h1><u>Libros y Cómics</u></h1>
+        <h1><u>Próximas llegadas</u></h1>
     </div>
     <div class="row row-cols-1 row-cols-md-3 g-2">
 
@@ -138,9 +138,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                     <p class="card-text">Descripción: Cuenta entre sus personajes a superhéroes tan conocidos como
                         Spider-Man, Iron Man, Capitán América y equipos como Los Vengadores, los X-Men, entre otros.
                     <p class="card-text">Autor: Martin Goodman</p>
-                    <p class="card-text">Precio: 24000 colones</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="#"> Comprar </a>
                     </div>
                 </div>
             </div>
@@ -154,9 +152,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                     <p class="card-text">Descripción: El principito es una novela corta y la obra más famosa del
                         escritor y aviador francés Antoine de Saint-Exupéry.
                     <p class="card-text">Autor: Antoine de Saint-Exupéry</p>
-                    <p class="card-text">Precio: 8000 colones</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="#"> Comprar </a>
                     </div>
                 </div>
             </div>
@@ -170,9 +166,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                     <p class="card-text">Descripción: Iron Man es el nombre de varios títulos de cómics que presentan al
                         personaje de Iron Man y publicados por Marvel Comics.
                     <p class="card-text">Autor: Matt Fraction</p>
-                    <p class="card-text">Precio: 19000 colones</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="#"> Comprar </a>
                     </div>
                 </div>
             </div>
@@ -186,9 +180,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                     <p class="card-text">Descripción: El día de su cumpleaños, Harry Potter descubre que es hijo de dos
                         conocidos hechiceros, de los que ha heredado poderes mágicos.
                     <p class="card-text">Autor: JK Rowling</p>
-                    <p class="card-text">Precio: 15000 colones</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="#"> Comprar </a>
                     </div>
                 </div>
             </div>
@@ -203,9 +195,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                         de
                         Jojo Moyes para jóvenes adultos publicada en 2012.
                     <p class="card-text">Autor: Jojo Moyes</p>
-                    <p class="card-text">Precio: 11000 colones</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="#"> Comprar </a>
                     </div>
                 </div>
             </div>
@@ -219,9 +209,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                     <p class="card-text">Descripción: Únete a Monkey D. Luffy y su equipo de capa y espada en su
                         búsqueda del tesoro definitivo, One Piece.
                     <p class="card-text">Autor: EIICHIRO ODA</p>
-                    <p class="card-text">Precio: 7000 colones</p>
                     <div class="col-md-3 margin-bottom-15">
-                        <a class="btn btn-dark" name="btnVerMas" id="btnVerMas" href="#"> Comprar </a>
                     </div>
                 </div>
             </div>

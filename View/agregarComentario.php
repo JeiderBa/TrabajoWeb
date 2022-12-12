@@ -98,7 +98,7 @@ include_once __DIR__ . '\..\controller\usuarioController.php';
                         icon: 'success',
                         title: 'En breve estaremos en contacto!',
                         showConfirmButton: true,
-                        timer: 1500
+                        timer: 2500
                     })
                 }
                 </script>
